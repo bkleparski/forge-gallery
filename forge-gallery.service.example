@@ -1,0 +1,14 @@
+[Unit]
+Description=Forge Gallery
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/%i/forge
+EnvironmentFile=/home/%i/.env.forge-gallery
+ExecStart=/usr/bin/python3 /home/%i/forge-gallery.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=default.target
