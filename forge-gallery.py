@@ -186,6 +186,30 @@ main{padding:20px;max-width:1600px;margin:0 auto}
 .folder-opt:hover{background:#334155;color:#e2e8f0}
 .folder-opt.sel{background:#1e3a5f;border-color:#3b82f6;color:#93c5fd}
 .no-dirs{color:#475569;text-align:center;padding:20px;font-size:.85rem}
+
+/* ── Mobile responsive ── */
+@media(max-width:640px){
+  header{flex-wrap:wrap;padding:8px 12px;gap:6px}
+  .logo{font-size:.95rem}
+  .breadcrumb{order:10;width:100%;font-size:.78rem;border-top:1px solid #1e3a5f;padding-top:6px;margin-top:2px}
+  .btn{padding:5px 9px;font-size:.76rem}
+  main{padding:12px}
+  #imgs-container.imgs-grid{grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:6px}
+  #dirs-container.dirs-grid{gap:6px}
+  #dirs-container.dirs-grid .dir-card{min-width:calc(50% - 3px);max-width:100%;flex:1 1 calc(50% - 3px)}
+  .section-title{font-size:.7rem;margin:12px 0 7px}
+  #lb-toolbar{flex-wrap:wrap;gap:5px;padding:8px 10px}
+  #lb-filename{width:100%;order:10;text-align:left}
+  #lb-counter{font-size:.75rem}
+  .lb-btn{padding:5px 9px;font-size:.75rem}
+  #lb-nav-left,#lb-nav-right{width:38px;height:52px;font-size:1.4rem}
+  #lb-nav-left{left:4px}#lb-nav-right{right:4px}
+  #lb-img{max-width:96vw;max-height:76vh}
+  #bulk-bar{padding:8px 12px;gap:6px;font-size:.8rem;bottom:16px}
+  .bar-btn{padding:5px 10px;font-size:.76rem}
+  #bulk-count{font-size:.8rem;min-width:60px}
+  .modal-box{padding:18px 16px;margin:12px}
+}
 </style>
 </head>
 <body>
