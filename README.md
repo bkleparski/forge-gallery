@@ -1,3 +1,5 @@
+<img src="docs/banner.png" alt="Forge Gallery — przeglądarka outputów Stable Diffusion" width="100%">
+
 # Forge Gallery
 
 Lekka, samodzielna przeglądarka i menadżer plików dla outputów **Stable Diffusion / Forge**.  
